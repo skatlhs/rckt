@@ -1699,7 +1699,7 @@ body {
 }
 .cid-rg15l5oZmr {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-rg15l5oZmr .mbr-section-subtitle {
@@ -1734,6 +1734,61 @@ body {
 }
 .cid-rg15l5oZmr .mbr-section-title {
   color: #767676;
+}
+.cid-rg1p9vquf9 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/ps1-1050x700.jpg");
+}
+.cid-rg1p9vquf9 .list-group-item {
+  padding: .75rem 3.25rem;
+}
+.cid-rg1p9vquf9 .plan {
+  word-break: break-word;
+  position: relative;
+  max-width: 300px;
+  padding-right: 0;
+  padding-left: 0;
+  color: #767676;
+}
+.cid-rg1p9vquf9 .plan .list-group-item {
+  position: relative;
+  -webkit-justify-content: center;
+  justify-content: center;
+  border: 0;
+}
+.cid-rg1p9vquf9 .plan .list-group-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 60%;
+  height: 2px;
+  content: "";
+  background-color: #eaeaea;
+}
+.cid-rg1p9vquf9 .plan .list-group-item:last-child::after {
+  display: none;
+}
+.cid-rg1p9vquf9 .plan-header {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.cid-rg1p9vquf9 .plan-header,
+.cid-rg1p9vquf9 .plan-body {
+  background-color: #fff;
+}
+.cid-rg1p9vquf9 .price-figure {
+  font-weight: 700;
+  color: #232323;
+}
+.cid-rg1p9vquf9 .price-value {
+  font-weight: 700;
+  vertical-align: top;
+}
+@media (max-width: 550px) {
+  .cid-rg1p9vquf9 .price-figure {
+    font-size: 4.25rem;
+  }
 }
 .cid-rg1eQMNDIT {
   padding-top: 90px;
